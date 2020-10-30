@@ -44,7 +44,7 @@ class FaceMaskModel(object):
         model.add(Dense(dense_3, activation='relu'))
         model.add(Dense(dense_3, activation='relu'))
         model.add(Dense(dense_3, activation='relu'))
-        model.add(Dense(num_classes, activation='sigmoid'))
+        model.add(Dense(num_classes, activation='softmax'))
         model.summary()
         self.model = model
 
