@@ -1,4 +1,5 @@
 import os 
+haarcascade_path = os.path.join(os.getcwd(), 'data/haarcascade_frontalface_default.xml')
 train_dir = os.path.join(os.getcwd(), 'data/Train/')
 test_dir = os.path.join(os.getcwd(), 'data/Test/')
 val_dir = os.path.join(os.getcwd(), 'data/Val/')

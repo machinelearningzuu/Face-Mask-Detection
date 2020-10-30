@@ -64,7 +64,7 @@ class FaceMaskModel(object):
                         )
 
     def save_model(self):
-        print("Drowsiness model Saving !")
+        print("Face Mask Model  Saving !")
         model_json = self.model.to_json()
         with open(model_architecture, "w") as json_file:
             json_file.write(model_json)
@@ -85,7 +85,7 @@ class FaceMaskModel(object):
                           metrics=['accuracy']
                           )
 
-        print("Drowsiness Model Loaded")
+        print("Face Mask Model Loaded")
 
     def evaluation(self):
         Predictions = self.model.predict_generator(self.test_generator,steps=self.test_step)
