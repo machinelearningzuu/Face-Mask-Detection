@@ -1,7 +1,7 @@
 # Face-Mask-Detection with Tensorflow 2.x
 
 ### First Create Python virtual environment using conda and install required libraries including following. 
-Tensorflow 2.1 <br />
+Tensorflow 2.1.0 <br />
 Keras 2.3.1 <br />
 Opencv 4.1 <br />
 
