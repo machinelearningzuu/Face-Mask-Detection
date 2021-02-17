@@ -2,7 +2,6 @@
 
 ### First Create Python virtual environment using conda and install required libraries including following. 
 Tensorflow 2.1.0 <br />
-Keras 2.3.1 <br />
 Opencv 4.1 <br />
 
 #### Use following commands in anaconda prompt to create python virual environment and install relevant libraries
